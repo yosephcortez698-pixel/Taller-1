@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
 
     protected String nombre;
     protected int edad;
@@ -20,6 +20,51 @@ public class Animal {
         System.out.println("Haser sonido");
     }
 
-    public String Setnombre(){
-        get
+    public String getnombre() {
+        return nombre;
     }
+
+    public void setnombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getedad() {
+        return edad;
+    }
+
+    public void setedad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getdueño() {
+        return dueño;
+    }
+
+    public void setdueño(String dueño) {
+        this.dueño = dueño;
+    }
+
+    public String getcolor() {
+        return color;
+    }
+
+    public void setcolor(String color) {
+        this.color = color;
+    }
+
+    public String getraza() {
+        return raza;
+    }
+
+    public void setraza(String raza) {
+        this.raza = raza;
+    }
+
+    public String getTipo() {
+        return Tipo;
+    }
+
+    public void setTipo(String Tipo) {
+        this.Tipo = Tipo;
+    }
+}

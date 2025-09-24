@@ -1,4 +1,4 @@
-public class Gato extends Animal {
+public class Tejóndelamiel extends Animal {
 
     protected String nombre;
     protected int edad;
@@ -7,7 +7,7 @@ public class Gato extends Animal {
     protected String raza;
     protected String Tipo;
 
-    public Gato(String nombre, int edad, String dueño, String color, String raza, String Tipo) {
+    public Tejóndelamiel(String nombre, int edad, String dueño, String color, String raza, String Tipo) {
         this.nombre = nombre;
         this.edad = edad;
         this.dueño = dueño;
@@ -17,9 +17,5 @@ public class Gato extends Animal {
     }
 
     public void haserSonido() {
-        System.out.println("Maullido");
+        System.out.println(" bufidos ");
     }
-
-
-
-}
