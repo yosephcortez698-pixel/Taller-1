@@ -1,23 +1,14 @@
-public abstract class Animal {
+package Animales;
 
-    protected String nombre;
-    protected int edad;
-    protected String dueño;
-    protected String color;
-    protected String raza;
-    protected String Tipo;
+public class Ave extends Animal {
 
-    public Animal(String nombre, int edad, String dueño, String color, String raza, String Tipo) {
-        this.nombre = nombre;
-        this.edad = edad;
-        this.dueño = dueño;
-        this.color = color;
-        this.raza = raza;
-        this.Tipo = Tipo;
+    public Ave(String nombre, int edad, String dueño, String color, String raza, String Tipo) {
+        super(nombre, edad, dueño, color, raza, Tipo);
     }
 
+    @Override
     public void haserSonido() {
-        System.out.println("Haser sonido");
+        System.out.println("Guag Guag");
     }
 
     public String getnombre() {
@@ -67,4 +58,5 @@ public abstract class Animal {
     public void setTipo(String Tipo) {
         this.Tipo = Tipo;
     }
+
 }
