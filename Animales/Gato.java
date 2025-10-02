@@ -59,4 +59,9 @@ public class Gato extends Animal {
         this.Tipo = Tipo;
     }
 
+    @Override
+    public String toString() {
+        return "Gato [Nombre=" + getnombre() + ", Edad=" + getedad() + ", Dueño=" + getdueño() + ", Color="
+                + getcolor() + ", Raza=" + getraza() + "]";
+    }
 }

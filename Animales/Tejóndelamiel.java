@@ -8,7 +8,7 @@ public class Tejóndelamiel extends Animal {
 
     @Override
     public void haserSonido() {
-        System.out.println(" bufidos ");
+        System.out.println(" Grag Grag Grag ");
     }
 
     public String getnombre() {
@@ -59,4 +59,9 @@ public class Tejóndelamiel extends Animal {
         this.Tipo = Tipo;
     }
 
+    @Override
+    public String toString() {
+        return "Tejondelamiel [Nombre=" + getnombre() + ", Edad=" + getedad() + ", Dueño=" + getdueño() + ", Color="
+                + getcolor() + ", Raza=" + getraza() + "]";
+    }
 }

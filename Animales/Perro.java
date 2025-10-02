@@ -58,4 +58,11 @@ public class Perro extends Animal {
     public void setTipo(String Tipo) {
         this.Tipo = Tipo;
     }
+
+    @Override
+    public String toString() {
+        return "Perro [Nombre=" + getnombre() + ", Edad=" + getedad() + ", Dueño=" + getdueño() + ", Color="
+                + getcolor() + ", Raza=" + getraza() + "]";
+
+    }
 }

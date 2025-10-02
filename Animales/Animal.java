@@ -69,4 +69,5 @@ public abstract class Animal {
     public void setTipo(String Tipo) {
         this.Tipo = Tipo;
     }
+
 }

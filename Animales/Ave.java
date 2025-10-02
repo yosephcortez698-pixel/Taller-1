@@ -59,4 +59,14 @@ public class Ave extends Animal {
         this.Tipo = Tipo;
     }
 
+    public void volar() {
+        System.out.println("Volar");
+    }
+
+    @Override
+    public String toString() {
+        return "Ave [Nombre=" + getnombre() + ", Edad=" + getedad() + ", Dueño=" + getdueño() + ", Color="
+                + getcolor() + ", Raza=" + getraza() + "]";
+
+    }
 }
